@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://unpkg.com/boxicons@2.1.1/dist/boxicons.js"></script>
+</head>
+<body>
+    <div class="tool">
+        <input id="color-btn" type="color">
+        <button id = 'eraser-btn'>
+            <i><box-icon type='solid' name='eraser'></box-icon></i>
+        </button>
+        <button id="decrease-btn">
+            <i>-</i>
+        </button>
+        <button id="size-btn">
+            <i>10</i>
+        </button>
+        <button id="increase-btn">
+            <i>+</i>
+        </button>
+        <a download="paint.png" id="save-btn">
+            <i><box-icon  name='save' type='solid' ></box-icon></i>
+        </a>
+        <button id="clear-btn">
+            <box-icon name='refresh' ></box-icon>
+        </button>
+        
+
+    </div>
+    <canvas width="1800", height="800">
+
+    </canvas>
+</body>
+<script src="./index.js"></script>
+</html>
